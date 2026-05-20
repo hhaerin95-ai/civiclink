@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">civiclink</string>
+    <string name="complaint_evidence_photo">Complaint Evidence Photo</string>
+    <string name="view_details">View Details</string>
+    <string-array name="complaint_statuses">
+        <item>Pending</item>
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Rejected</item>
+    </string-array>
+
+
+</resources>

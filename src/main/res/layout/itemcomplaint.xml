@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="@android:drawable/dialog_holo_light_frame">
+
+    <!-- TextView untuk Tajuk Aduan -->
+    <TextView
+        android:id="@+id/tvComplaintTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complaint Title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- TextView untuk Deskripsi Aduan -->
+    <TextView
+        android:id="@+id/tvComplaintDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="This is a detailed description of the complaint." />
+
+    <!-- TextView untuk Status Semasa -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Status: Pending"
+        android:textStyle="italic" />
+
+    <!-- Spinner untuk Memilih Status (INI YANG ANDA MAHU) -->
+    <!-- Spinner untuk Memilih Status (INI YANG ANDA MAHU) -->
+    <Spinner
+        android:id="@+id/spinnerStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp" />  <!-- TAMBAH BARIS INI -->
+
+
+    <!-- Butang untuk Kemas Kini -->
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:text="Update" />
+
+</LinearLayout>
